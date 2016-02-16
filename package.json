@@ -1,0 +1,33 @@
+{
+  "name": "btcc-pro-echange-websocket",
+  "version": "1.0.0",
+  "description": "This is a plugin for BTCC Pro Exchange  Websocket connection ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenqingyu/btcc-pro-exchange-websocket-node.git"
+  },
+  "keywords": [
+    "BTCC",
+    "Pro",
+    "Exchange",
+    "Websocket"
+  ],
+  "author": "Wenqing Yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenqingyu/btcc-pro-exchange-websocket-node/issues"
+  },
+  "homepage": "https://github.com/wenqingyu/btcc-pro-exchange-websocket-node#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "faye-websocket": "^0.10.0"
+  }
+}
